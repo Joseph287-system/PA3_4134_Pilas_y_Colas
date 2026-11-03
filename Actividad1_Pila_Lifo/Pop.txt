@@ -1,0 +1,11 @@
+ALGORITMO POP()
+
+    SI TOPE = -1 ENTONCES
+        ESCRIBIR "La pila está vacía"
+    SINO
+        elemento ← PILA[TOPE]
+        TOPE ← TOPE - 1
+        RETORNAR elemento
+    FIN SI
+
+FIN ALGORITMO
