@@ -1,0 +1,9 @@
+ALGORITMO PEEK()
+
+    SI TOPE = -1 ENTONCES
+        ESCRIBIR "La pila está vacía"
+    SINO
+        RETORNAR PILA[TOPE]
+    FIN SI
+
+FIN ALGORITMO
