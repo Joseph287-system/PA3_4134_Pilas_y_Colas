@@ -8,7 +8,7 @@ Desarrollar y comprender el funcionamiento de las estructuras de datos PILA (LIF
 
 | Integrante | Participación |
 |---|---|
-| Integrante 1 | Por completar |
+| Integrante 1 | Joseph Antonio Fong Millones/Actividad1 |
 | Integrante 2 | Por completar |
 | Integrante 3 | Por completar |
 | Integrante 4 | Por completar |
