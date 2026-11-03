@@ -1,0 +1,10 @@
+ALGORITMO PUSH(elemento)
+
+    SI TOPE = MAXIMO - 1 ENTONCES
+        ESCRIBIR "La pila está llena"
+    SINO
+        TOPE ← TOPE + 1
+        PILA[TOPE] ← elemento
+    FIN SI
+
+FIN ALGORITMO
