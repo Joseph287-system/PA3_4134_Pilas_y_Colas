@@ -65,7 +65,127 @@ Se registran las siguientes solicitudes:
 <img width="708" height="214" alt="image" src="https://github.com/user-attachments/assets/7d8925f4-e84a-46f0-9619-c5311376c449" />
 
 ## Diseñen algoritmos para encolar, desencolar, visualizar el frente de la cola y verificar si la cola está vacia.
- 
+
+public class Main {
+
+    // Variables de la cola
+    static int capacidad = 5;
+    static int[] cola = new int[capacidad];
+
+    static int front = -1;
+    static int rear = -1;
+
+    // 1. ENCOLAR
+    public static void encolar(int dato) {
+
+        if (rear == capacidad - 1) {
+            System.out.println("Error: Cola llena (Overflow)");
+            return;
+        }
+
+        if (front == -1) {
+            front = 0;
+        }
+
+        rear++;
+        cola[rear] = dato;
+
+        System.out.println("Elemento encolado: " + dato);
+    }
+
+    // 2. DESENCOLAR
+    public static void desencolar() {
+
+        if (front == -1) {
+            System.out.println("Error: Cola vacia (Underflow)");
+            return;
+        }
+
+        int datoEliminado = cola[front];
+
+        System.out.println("Elemento desencolado: " + datoEliminado);
+
+        front++;
+
+        if (front > rear) {
+            front = -1;
+            rear = -1;
+        }
+    }
+
+    // 3. VISUALIZAR EL FRENTE
+    public static void verFrente() {
+
+        if (front == -1) {
+            System.out.println("La cola esta vacia");
+            return;
+        }
+
+        System.out.println("Frente de la cola: " + cola[front]);
+    }
+
+    // 4. VERIFICAR SI LA COLA ESTA VACIA
+    public static boolean colaVacia() {
+
+        return front == -1;
+    }
+
+    // PROGRAMA PRINCIPAL
+    public static void main(String[] args) {
+
+        // Agregar elementos
+        encolar(10);
+        encolar(20);
+        encolar(30);
+
+        System.out.println("----------------");
+
+        // Visualizar el frente
+        verFrente();
+
+        // Verificar si esta vacia
+        if (colaVacia()) {
+            System.out.println("La cola esta vacia");
+        } else {
+            System.out.println("La cola tiene elementos");
+        }
+
+        System.out.println("----------------");
+
+        // Eliminar el primer elemento
+        desencolar();
+
+        // Visualizar el nuevo frente
+        verFrente();
+
+    }
+}
+
+ ## Resultado
+ Elemento encolado: 10
+Elemento encolado: 20
+Elemento encolado: 30
+----------------
+Frente de la cola: 10
+La cola tiene elementos
+----------------
+Elemento desencolado: 10
+Frente de la cola: 20
+PS C:\Users\User\Documents\fifo> 
+
+
+## Aplicación concreta de la cola FIFO
+Una aplicación concreta de la estructura de datos FIFO es la atención de solicitudes en una unidad de servicios académicos de una institución educativa.
+Cuando los estudiantes realizan solicitudes, como constancias de estudios, certificados académicos o consultas sobre matrícula, estas se registran en una cola para ser atendidas según su orden de llegada.
+Por ejemplo:
+1.	El estudiante realiza la solicitud 101: Constancia de estudios.
+2.	El estudiante realiza la solicitud 102: Certificado académico.
+3.	El estudiante realiza la solicitud 103: Consulta de matrícula.
+
+La cola FIFO es la estructura más adecuada, porque permite organizar las solicitudes de manera ordenada y garantiza que el primer estudiante que registra su solicitud sea el primero en recibir atención. Además, evita que las solicitudes más antiguas sean desplazadas por las nuevas y facilita el control del proceso de atención.
+
+<img width="886" height="178" alt="image" src="https://github.com/user-attachments/assets/c0feb64b-72f1-4970-93fd-af8dcc3ae39d" />
+
 
 
 
