@@ -43,7 +43,7 @@ A continuación se presenta el desarrollo algorítmico en pseudocódigo para cad
 
 Descripción: Algoritmo para agregar un elemento en la parte superior (tope) de la pila.
 
-Algoritmo Push(pila, elemento, tope, capacidad)
+```Algoritmo Push(pila, elemento, tope, capacidad)
     Si tope >= capacidad - 1 Entonces
         Imprimir "Desbordamiento: La pila está llena"
     Sino
@@ -58,7 +58,7 @@ Fin Algoritmo
 
 Descripción: Algoritmo para retirar y retornar el elemento superior de la pila.
 
-Algoritmo Pop(pila, tope)
+```Algoritmo Pop(pila, tope)
     Si tope < 0 Entonces
         Imprimir "Subdesbordamiento: La pila está vacía"
         Retornar Nulo
@@ -74,7 +74,7 @@ Fin Algoritmo
 
 Descripción: Algoritmo para consultar el elemento superior sin modificar la pila.
 
-Algoritmo Peek(pila, tope)
+```Algoritmo Peek(pila, tope)
     Si tope < 0 Entonces
         Imprimir "La pila está vacía"
         Retornar Nulo
@@ -88,7 +88,7 @@ Fin Algoritmo
 
 Descripción: Algoritmo para verificar si la pila carece de elementos.
 
-Algoritmo IsEmpty(tope)
+```Algoritmo IsEmpty(tope)
     Si tope < 0 Entonces
         Retornar Verdadero
     Sino
