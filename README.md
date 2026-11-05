@@ -178,7 +178,7 @@ La cola FIFO es la estructura más adecuada, porque permite organizar las solici
 
 <img width="886" height="178" alt="image" src="https://github.com/user-attachments/assets/c0feb64b-72f1-4970-93fd-af8dcc3ae39d" />
 
- Actividad 2 
+ Actividad 3
 
 | Situación                                                          | Estructura | Justificación técnica                                                                                                                                                                                                              |
 | ------------------------------------------------------------------ | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
