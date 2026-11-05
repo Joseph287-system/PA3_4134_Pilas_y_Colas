@@ -178,6 +178,14 @@ La cola FIFO es la estructura más adecuada, porque permite organizar las solici
 
 <img width="886" height="178" alt="image" src="https://github.com/user-attachments/assets/c0feb64b-72f1-4970-93fd-af8dcc3ae39d" />
 
+Actividad 3
+
+| Situación                                                          | Estructura | Justificación técnica                                                                                                                                                                                                              |
+| ------------------------------------------------------------------ | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Registro de acciones recientes para revertir cambios**           | **Pila**   | Utiliza el principio **LIFO** (*último en entrar, primero en salir*). Para deshacer cambios, se revierte primero la acción más reciente. Cada acción se almacena con una operación **push** y se retira con **pop** al deshacerla. |
+| **Atención de solicitudes en orden de llegada**                    | **Cola**   | Aplica el principio **FIFO** (*primero en entrar, primero en salir*). Las solicitudes se agregan al final mediante **encolar** y se retiran del frente mediante **desencolar**, respetando su orden de llegada.                    |
+| **Procesamiento donde el último ingresado debe atenderse primero** | **Pila**   | Corresponde a **LIFO**, porque el elemento más reciente queda en la cima y es el primero que se extrae para procesarlo.                                                                                                            |
+| **Flujo de espera de trámites pendientes**                         | **Cola**   | Si los trámites se atienden por orden de llegada, corresponde **FIFO**. Los nuevos trámites ingresan al final y el más antiguo pendiente se atiende primero.                                                                       |
 
 
 
