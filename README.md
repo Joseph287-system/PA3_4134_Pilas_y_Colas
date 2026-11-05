@@ -163,16 +163,7 @@ public class Main {
 
  ## Resultado
 
-Elemento encolado:10 
-Elemento encolado:20
-Elemento encolado:30
-
--
-Frente de la cola:10
-La cola tiene elementos
--
-Elemento desencolado 10 
-Frente de la cola 20 
+<img width="587" height="237" alt="image" src="https://github.com/user-attachments/assets/f1ca64a6-aec9-4534-92ff-790e32870b74" />
 
 
 ## Aplicación concreta de la cola FIFO
