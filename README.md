@@ -99,7 +99,7 @@ Se registran las siguientes solicitudes:
 2.	Solicitud 102: Certificado académico.
 3.	Solicitud 103: Consulta de matrícula.
 
-<img width="708" height="214" alt="image" src="https://github.com/user-attachments/assets/7d8925f4-e84a-46f0-9619-c5311376c449" />
+<img width="708" height="214" alt="image" src="https://github.com/user-attachments/assets/a65bdda0-e1c1-4ca4-8c16-a5ba5981cd79" />
 
 ## Diseñen algoritmos para encolar, desencolar, visualizar el frente de la cola y verificar si la cola está vacia.
 
