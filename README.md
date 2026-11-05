@@ -162,16 +162,17 @@ public class Main {
 }
 
  ## Resultado
- Elemento encolado: 10
-Elemento encolado: 20
-Elemento encolado: 30
-----------------
-Frente de la cola: 10
+
+Elemento encolado:10 
+Elemento encolado:20
+Elemento encolado:30
+
+-
+Frente de la cola:10
 La cola tiene elementos
-----------------
-Elemento desencolado: 10
-Frente de la cola: 20
-PS C:\Users\User\Documents\fifo> 
+-
+Elemento desencolado 10 
+Frente de la cola 20 
 
 
 ## Aplicación concreta de la cola FIFO
