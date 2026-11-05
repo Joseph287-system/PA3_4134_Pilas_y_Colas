@@ -11,7 +11,7 @@ Desarrollar y comprender el funcionamiento de las estructuras de datos PILA (LIF
 |---|---|
 | Integrante 1 | Joseph Antonio Fong Millones/Actividad1 |
 | Integrante 2 | Marco ychuta Saldivar / Actividad2 |
-| Integrante 3 | Por completar |
+| Integrante 3 | Wilmer jamner guevara ramos/ actividad 3|
 | Integrante 4 | Javier Alonso Gallegos Rodríguez | Actividad 4 – Comparación y argumentación |
 
 
@@ -35,7 +35,7 @@ Fin Algoritmo
 ```
 
 
-## 5.2. Pop (Desapilar)
+## 1.2. Pop (Desapilar)
 
 Descripción: Algoritmo para retirar y retornar el elemento superior de la pila.
 
@@ -52,7 +52,7 @@ Fin Algoritmo
 ```
 
 
-## 5.3. Peek (Consultar Tope)
+## 1.3. Peek (Consultar Tope)
 
 Descripción: Algoritmo para consultar el elemento superior sin modificar la pila.
 
@@ -67,7 +67,7 @@ Fin Algoritmo
 ```
 
 
-## 5.4. IsEmpty (Verificar Vacía)
+## 1.4. IsEmpty (Verificar Vacía)
 
 Descripción: Algoritmo para verificar si la pila carece de elementos.
 
