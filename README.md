@@ -60,6 +60,9 @@ Se registran las siguientes solicitudes:
 2.	Solicitud 102: Certificado académico.
 3.	Solicitud 103: Consulta de matrícula.
 
+<img width="708" height="214" alt="image" src="https://github.com/user-attachments/assets/7d8925f4-e84a-46f0-9619-c5311376c449" />
+
+
  
 
 
