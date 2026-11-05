@@ -31,7 +31,8 @@ Descripción: Algoritmo para agregar un elemento en la parte superior (tope) de 
         pila[tope] = elemento
         Imprimir "Elemento apilado exitosamente"
     Fin Si
-Fin Algoritmo```
+Fin Algoritmo
+```
 
 
 ## 5.2. Pop (Desapilar)
@@ -48,6 +49,7 @@ Descripción: Algoritmo para retirar y retornar el elemento superior de la pila.
         Retornar elementoEliminado
     Fin Si
 Fin Algoritmo
+```
 
 
 ## 5.3. Peek (Consultar Tope)
@@ -62,6 +64,7 @@ Descripción: Algoritmo para consultar el elemento superior sin modificar la pil
         Retornar pila[tope]
     Fin Si
 Fin Algoritmo
+```
 
 
 ## 5.4. IsEmpty (Verificar Vacía)
@@ -75,6 +78,7 @@ Descripción: Algoritmo para verificar si la pila carece de elementos.
         Retornar Falso
     Fin Si
 Fin Algoritmo
+```
 
 
 ## Actividad 2 
