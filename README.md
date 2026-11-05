@@ -38,6 +38,44 @@ PA3_4134_Pilas_y_Colas/
 
 Ingresar a la carpeta `Actividad1_Pila_Lifo` y revisar los archivos de pseudocódigo para comprender las operaciones de una pila LIFO.
 
+
+
+## Actividad 2 
+
+
+Una cola es una estructura de datos lineal que sigue el principio FIFO (First In, First Out), que significa «primero en entrar, primero en salir».
+Esto quiere decir que el primer elemento que ingresa a la cola será el primero en salir. Los elementos se insertan por el final de la cola (Rear) y se eliminan por el frente (Front), respetando siempre el orden de llegada.
+
+Características 
+•	Principio FIFO: el primer elemento que ingresa es el primero en salir.
+•	Acceso restringido: la inserción se realiza por el final (Rear) y la eliminación por el frente (Front).
+•	Orden secuencial: los elementos se procesan respetando su orden de llegada.
+•	Implementación: puede desarrollarse mediante vectores (arreglos) o listas enlazadas.
+
+Grafico 
+En una unidad de servicios académicos, los estudiantes realizan diferentes solicitudes, como constancias de estudios, certificados académicos y consultas de matrícula.
+Para organizar, se implementará una cola FIFO. Cada solicitud se almacenará en el orden en que sea registrada y será atendida desde el frente de la cola.
+Se registran las siguientes solicitudes:
+1.	Solicitud 101: Constancia de estudios.
+2.	Solicitud 102: Certificado académico.
+3.	Solicitud 103: Consulta de matrícula.
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Actividad 4 – Comparación y argumentación
 
 | Aspecto | Pila (LIFO) | Cola (FIFO) |
