@@ -31,7 +31,7 @@ Descripción: Algoritmo para agregar un elemento en la parte superior (tope) de 
         pila[tope] = elemento
         Imprimir "Elemento apilado exitosamente"
     Fin Si
-Fin Algoritmo
+Fin Algoritmo```
 
 
 ## 5.2. Pop (Desapilar)
