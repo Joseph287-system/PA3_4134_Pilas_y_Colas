@@ -257,4 +257,4 @@ Como equipo, elegimos una pila para guardar los cambios porque, al deshacer una 
 
 ## 6. Video de exposición
 
-Enlace de YouTube: [Pendiente de agregar.](https://youtu.be/PvY7l1-DYn0)
+Enlace de YouTube: [Video de Youtube.](https://youtu.be/PvY7l1-DYn0)
