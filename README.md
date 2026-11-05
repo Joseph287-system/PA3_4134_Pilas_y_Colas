@@ -1,4 +1,5 @@
 # PA3_4134_Pilas_y_Colas
+## Actividad 1
 Evaluacion aplicada sobre estructuras de datos: pilas LIFO y coloca FIFO
 ## 1. Objetivo
 
@@ -9,8 +10,8 @@ Desarrollar y comprender el funcionamiento de las estructuras de datos PILA (LIF
 | Integrante | Participación |
 |---|---|
 | Integrante 1 | Joseph Antonio Fong Millones/Actividad1 |
-| Integrante 2 | Marco Ychuta Saldivar/ Actividad 2 |
-| Integrante 3 | Wilmer Jamner Guevara Ramos, Actividad 3 |
+| Integrante 2 | Por completar |
+| Integrante 3 | Por completar |
 | Integrante 4 | Javier Alonso Gallegos Rodríguez | Actividad 4 – Comparación y argumentación |
 
 ## 3. Estructura del repositorio
@@ -36,8 +37,64 @@ PA3_4134_Pilas_y_Colas/
 
 ## 5. Instrucciones de revisión
 
-Ingresar a la carpeta `Actividad1_Pila_Lifo` y revisar los archivos de pseudocódigo para comprender las operaciones de una pila LIFO.
+A continuación se presenta el desarrollo algorítmico en pseudocódigo para cada una de las operaciones fundamentales de la Pila (LIFO):
 
+## 5.1. Push (Apilar)
+
+Descripción: Algoritmo para agregar un elemento en la parte superior (tope) de la pila.
+
+Algoritmo Push(pila, elemento, tope, capacidad)
+    Si tope >= capacidad - 1 Entonces
+        Imprimir "Desbordamiento: La pila está llena"
+    Sino
+        tope = tope + 1
+        pila[tope] = elemento
+        Imprimir "Elemento apilado exitosamente"
+    Fin Si
+Fin Algoritmo
+
+
+## 5.2. Pop (Desapilar)
+
+Descripción: Algoritmo para retirar y retornar el elemento superior de la pila.
+
+Algoritmo Pop(pila, tope)
+    Si tope < 0 Entonces
+        Imprimir "Subdesbordamiento: La pila está vacía"
+        Retornar Nulo
+    Sino
+        elementoEliminado = pila[tope]
+        tope = tope - 1
+        Retornar elementoEliminado
+    Fin Si
+Fin Algoritmo
+
+
+## 5.3. Peek (Consultar Tope)
+
+Descripción: Algoritmo para consultar el elemento superior sin modificar la pila.
+
+Algoritmo Peek(pila, tope)
+    Si tope < 0 Entonces
+        Imprimir "La pila está vacía"
+        Retornar Nulo
+    Sino
+        Retornar pila[tope]
+    Fin Si
+Fin Algoritmo
+
+
+## 5.4. IsEmpty (Verificar Vacía)
+
+Descripción: Algoritmo para verificar si la pila carece de elementos.
+
+Algoritmo IsEmpty(tope)
+    Si tope < 0 Entonces
+        Retornar Verdadero
+    Sino
+        Retornar Falso
+    Fin Si
+Fin Algoritmo
 
 
 ## Actividad 2 
