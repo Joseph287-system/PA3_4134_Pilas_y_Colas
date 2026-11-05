@@ -10,7 +10,7 @@ Desarrollar y comprender el funcionamiento de las estructuras de datos PILA (LIF
 |---|---|
 | Integrante 1 | Joseph Antonio Fong Millones/Actividad1 |
 | Integrante 2 | Marco Ychuta Saldivar/ Actividad 2 |
-| Integrante 3 | Por completar |
+| Integrante 3 | Wilmer Jamner Guevara Ramos, Actividad 3 |
 | Integrante 4 | Javier Alonso Gallegos Rodríguez | Actividad 4 – Comparación y argumentación |
 
 ## 3. Estructura del repositorio
