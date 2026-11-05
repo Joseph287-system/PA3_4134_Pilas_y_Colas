@@ -47,12 +47,14 @@ Una cola es una estructura de datos lineal que sigue el principio FIFO (First In
 Esto quiere decir que el primer elemento que ingresa a la cola será el primero en salir. Los elementos se insertan por el final de la cola (Rear) y se eliminan por el frente (Front), respetando siempre el orden de llegada.
 
 Características 
+
 •	Principio FIFO: el primer elemento que ingresa es el primero en salir.
 •	Acceso restringido: la inserción se realiza por el final (Rear) y la eliminación por el frente (Front).
 •	Orden secuencial: los elementos se procesan respetando su orden de llegada.
 •	Implementación: puede desarrollarse mediante vectores (arreglos) o listas enlazadas.
 
 Grafico 
+
 En una unidad de servicios académicos, los estudiantes realizan diferentes solicitudes, como constancias de estudios, certificados académicos y consultas de matrícula.
 Para organizar, se implementará una cola FIFO. Cada solicitud se almacenará en el orden en que sea registrada y será atendida desde el frente de la cola.
 Se registran las siguientes solicitudes:
@@ -62,7 +64,7 @@ Se registran las siguientes solicitudes:
 
 <img width="708" height="214" alt="image" src="https://github.com/user-attachments/assets/7d8925f4-e84a-46f0-9619-c5311376c449" />
 
-
+## Diseñen algoritmos para encolar, desencolar, visualizar el frente de la cola y verificar si la cola está vacia.
  
 
 
